@@ -3,10 +3,6 @@ body {
   margin: 0
 }
 
-#main-text {
-  font-size: 89px;
-}
-
 .cinza {
   color: #808080;
 }
@@ -15,55 +11,10 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   margin: 0px auto 0px auto;
-  justify-content: center;
+  justify-content: space-between;
   padding: 0px auto 0px auto ;
   max-width: 1140px;
-  grid-gap: 26px;
-}
-
-#main-text-container {
-  width: 660px;
-  line-height: 74px;
-  grid-column: 1 / 4;
-  grid-row: 2 / 4;
-  overflow-wrap: break-word;
-  /* border: solid red 1px; */
-}
-
-#main-image {
-  grid-column: 3 / 6;
-  grid-row: 2 / 3;
-  justify-self: end;
-}
-
-#nav-itens {
-  align-items: center;
-  width: 220px;
-  display: flex;
-  justify-content: space-between ;
-  flex-direction: row;
-}
- 
-/* 
-.borda {
-  border: solid red 1px;
-} */
-
-
-
-#menu-grid-container  {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  grid-row: 1 / 2;
-  grid-column: 1 / 5;
-}
-
-
-.button-menu {
-  display: flex;
-  font-weight: 600;
+  grid-gap: 16px;
 }
 
 #logo{
@@ -75,12 +26,73 @@ body {
   display: flex;
 }
 
+#nav-itens {
+  align-items: center;
+  width: 220px;
+  display: flex;
+  justify-content: space-between ;
+  flex-direction: row;
+}
+
+.main-text-container {
+  display: flex;
+  flex-direction: column;
+  width: 560px;
+  overflow-wrap: break-word;
+  justify-content: space-around;
+
+}
+
+.main-text {
+
+  width: 600px;
+  font-size: 89px;
+  line-height: 70px;
+}
+
+.borda {
+  border: solid red 1px;
+}
+
+#menu-grid-container  {
+  display: flex;
+  flex-flow: row;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  grid-row: 1 / 2;
+  grid-column: 1 / 5;
+}
+
+.main {
+  grid-column: 1 / 5;
+  grid-row: 2 / 3;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+.button-menu {
+  display: flex;
+  font-weight: 600;
+}
+
+.image {
+  align-self: center;
+
+}
+
 #text-secundary {
   font-weight: 300;
   letter-spacing: 2px;
   width: 400px;
-  line-height: 100%;
-  margin-bottom: 50px;
+  font-size: 20px;
+
 }
 
 .main-button {
@@ -107,9 +119,8 @@ body {
 #button-container {
   display: flex;
   width: 380px;
-  justify-self: end;
   justify-content: space-between;
-  margin-top: 50px;
+
 }
 
 .roxo {
