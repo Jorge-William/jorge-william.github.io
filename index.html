@@ -1,64 +1,63 @@
 <html lang="pt-br">
-	<head>
-		<link href="./style/style.css" rel="stylesheet" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
-			rel="stylesheet" />
-	</head>
 
-	<body>
-		<div class="container">
-			<header id="menu-grid-container">
-				<div id="logo">
-					<p class="logo">JW</p>
+<head>
+	<link href="./style/style.css" rel="stylesheet" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet" />
+</head>
+
+<body>
+	<div class="container">
+		<header id="menu-grid-container">
+			<div id="logo">
+				<p class="logo">JW</p>
+			</div>
+			<nav>
+				<div id="nav-itens">
+					<div class="button-menu">Home</div>
+					<div class="button-menu">Sobre mim</div>
+					<div class="button-menu">Projetos</div>
 				</div>
-				<nav>
-					<div id="nav-itens">
-						<div class="button-menu">Home</div>
-						<div class="button-menu">Sobre mim</div>
-						<div class="button-menu">Projetos</div>
+			</nav>
+		</header>
+		<div class="main">
+			<main class="flex-container borda">
+				<div class="main-text-container borda"><!--------------------------Início Box 1----------------------->
+					<div>
+						<h1 class="main-text">
+							Olá<span class="cinza">,</span> <br />eu sou
+							<span class="roxo">Jorge William</span>
+						</h1>
+						<p id="text-secundary" class="cinza">
+							<strong>
+								Um desenvolvedor em constante evolução, que
+								tem como objetivo se tornar
+								<strong>FullStack </strong>e que é
+								apaixonado por tecnologia.
+							</strong>
+						</p>
 					</div>
-				</nav>
-			</header>
-			<div class="main">
-				<main class="flex-container">
-					<div class="main-text-container">
-						<div>
-							<h1 class="main-text">
-								Olá<span class="cinza">,</span> <br />eu sou
-								<span class="roxo">Jorge William</span>
-							</h1>
-							<p id="text-secundary" class="cinza">
-								<strong>
-									Um desenvolvedor em constante evolução, que
-									tem como objetivo se tornar
-									<strong>FullStack </strong>e que é
-									apaixonado por tecnologia.
-								</strong>
-							</p>
-						</div>
-						<div id="button-container">
-							<button class="main-button">
-								<p>Contato</p>
-								<img
-									src="./assets/Vector.png"
-									alt="icone de seta"
-									height="30px" />
-							</button>
-							<button class="secundary-button">
-								<p>Download CV</p>
-							</button>
-						</div>
+					<div id="button-container">
+						<button class="main-button">
+							<p>Contato</p>
+							<img src="./assets/Vector.png" alt="icone de seta" height="30px" />
+						</button>
+						<button class="secundary-button">
+							<p>Download CV</p>
+						</button>
 					</div>
-		
-		<div id="main-image">
-			<picture>
-				<img src=" ./assets/Main-image.png" alt="Imagem De perfil Jorge William" width="600px" />
-			</picture>
+				</div><!--------------------------Fim Primeiro Box---------------------->
+				<div class="image borda"><!----------------------------Início Segundo Box------------------->
+					<picture>
+						<img src="./assets/Main-image.png" alt="Imagem de perfil Jorge William" />
+					</picture>
+				</div><!----------------------------Fim Segundo Box---------------------------------->
+			</main>
 		</div>
-		<script src='./scripts/index.js'></script>
+		<script src="./scripts/index.js"></script>
 	</div>
 </body>
+
 </html>
