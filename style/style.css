@@ -1,6 +1,7 @@
 body {
   font-family: 'Darker Grotesque';
-  margin: 0
+  margin: 0;
+  padding: 0;
 }
 
 .cinza {
@@ -12,12 +13,12 @@ body {
   grid-template-columns: repeat(4, 1fr);
   margin: 0px auto 0px auto;
   justify-content: space-between;
-  padding: 0px auto 0px auto ;
+  padding: 0px auto 0px auto;
   max-width: 1140px;
   grid-gap: 16px;
 }
 
-#logo{
+#logo {
   /* border: solid red 1px; */
   width: 70px;
   font-size: 60px;
@@ -30,7 +31,7 @@ body {
   align-items: center;
   width: 220px;
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   flex-direction: row;
 }
 
@@ -44,17 +45,16 @@ body {
 }
 
 .main-text {
-
   width: 600px;
   font-size: 89px;
   line-height: 70px;
 }
 
-.borda {
+/* .borda {
   border: solid red 1px;
-}
+} */
 
-#menu-grid-container  {
+#menu-grid-container {
   display: flex;
   flex-flow: row;
   flex-direction: row;
@@ -74,7 +74,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap-reverse;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .button-menu {
@@ -84,13 +84,18 @@ body {
 
 .image {
   align-self: center;
+  width: 50%;
+}
+
+picture>img {
+  max-width: 100%;
 
 }
 
 #text-secundary {
   font-weight: 300;
   letter-spacing: 2px;
-  width: 400px;
+  max-width: 100%;
   font-size: 20px;
 
 }
@@ -130,3 +135,70 @@ body {
 .cinza {
   color: #A4A4A4
 }
+
+@media (max-width:600px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px auto 0px auto;
+  }
+
+  div.image {
+    width: 100%;
+  }
+
+  .main-text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .main-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    overflow-wrap: break-word;
+    justify-content: space-around;
+  }
+
+  #text-secundary {
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-width: 80%;
+    font-size: 40px;
+  }
+}
+
+@media (max-width:400px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px auto 0px auto;
+  }
+
+  div.image {
+    width: 100%;
+  }
+
+  .main-text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .main-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    overflow-wrap: break-word;
+    justify-content: space-around;
+  }
+
+  #text-secundary {
+    font-weight: 300;
+    letter-spacing: 2px;
+    max-width: 80%;
+    font-size: 40px;
+  }
+}
+
+
+@media () {}
