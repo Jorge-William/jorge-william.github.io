@@ -9,7 +9,7 @@
 </p>
 
 
-Sou nascido e criado na capital do Rio de Janeiro, pai da pequena Mariah. Tenho como principal objetivo, mudar o mundo atravéz da tecnologia. Para isso, venho estudando para obter novas habilidades e __aperfeiçoar__ as já existentes. Atualmente estou cursando o segundo período do curso de __Ciência da Computação__ no Centro universitário IBMR, antes, me formei em __Frontend__ pela <a href="https://www.betrybe.com/">Trybe</a> (Certs: <a href="https://www.credential.net/2d84756b-b43d-4183-b471-c55987c15216">1</a> e <a href="https://www.credential.net/5baf8b44-0580-48bc-a529-b951ed9a340d">2</a>). Hoje venho efetuando serviços de desenvolvimento como __freelancer__ usando React, Node, Bootstrap e MySql.
+Sou nascido e criado na capital do Rio de Janeiro, pai da pequena Mariah. Tenho como principal objetivo, mudar o mundo através da tecnologia. Para isso, venho estudando para obter novas habilidades e __aperfeiçoar__ as já existentes. Atualmente estou cursando o segundo período do curso de __Ciência da Computação__ no Centro universitário IBMR, antes, me formei em __Frontend__ pela <a href="https://www.betrybe.com/">Trybe</a> (Certs: <a href="https://www.credential.net/2d84756b-b43d-4183-b471-c55987c15216">1</a> e <a href="https://www.credential.net/5baf8b44-0580-48bc-a529-b951ed9a340d">2</a>). Hoje venho efetuando serviços de desenvolvimento como __freelancer__ usando React, Node, Bootstrap e MySql.
 
  <!--  <a href="https://www.youtube.com/c/DevProTips"><img width="32px" alt="Youtube" title="Youtube" src="https://i.imgur.com/qiXu7b2.png"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;-->
